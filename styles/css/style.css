@@ -1,24 +1,35 @@
 body{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA70n8PldniYLWtkUHRbMNG6l3t7Pg8DMkRbEznVzPJ1B5jpWD');
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
 }
 #homepage{
-    text-align: center; 
+    text-align: center;
+    color: white;  
     margin-top: 100px; 
 }
 
-#social_media img{
-    width: 25%;
+/* #social_media img{
+    width: 10%;
     height: auto;   
-}
+} */
 
 #social_media{ 
-    display: flex;  
-    flex-flow: row;
-    align-items: flex-end; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.Instagram{
+    margin-right: 20px; 
+}
+
+.LinkedIn{
+    margin-right: 20px; 
 }
 
 #About{
-    text-align: center; 
+    text-align: center;
+    color: white; 
+    margin-left: 50px;
+    margin-right: 50px; 
 }   
