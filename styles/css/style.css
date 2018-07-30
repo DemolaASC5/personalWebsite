@@ -19,6 +19,15 @@ body{
     justify-content: center; 
 }
 
+#top{
+    margin-top: 325px;
+    margin-bottom: 325px; 
+}
+
+#Picture{
+    text-align: center;
+    font-size: 25px; 
+}
 .Instagram{
     margin-right: 20px; 
 }
