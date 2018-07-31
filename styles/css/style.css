@@ -1,7 +1,32 @@
-body{
+/* body{
     background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
+} */
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#nav_bar{
+    background-color: black; 
+    /* /* z-index: 0; */
+    position: relative; 
+    top: 0;
+    left: 0; 
+    width: 1600px;
+    /* margin-top: 0px;
+    height: 60px;
+    margin-bottom: 0px; */
+}
+
+#nav_bar p{
+    margin: 0; 
+    color: white;
 }
 #homepage{
     text-align: center;
@@ -9,25 +34,11 @@ body{
     margin-top: 100px; 
 }
 
-/* #social_media img{
-    width: 10%;
-    height: auto;   
-} */
-
 #social_media{ 
     display: flex; 
     justify-content: center; 
 }
 
-#top{
-    margin-top: 325px;
-    margin-bottom: 325px; 
-}
-
-#Picture{
-    text-align: center;
-    font-size: 25px; 
-}
 .Instagram{
     margin-right: 20px; 
 }
